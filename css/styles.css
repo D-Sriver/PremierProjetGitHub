@@ -284,7 +284,6 @@ input[type="submit"]:hover {
   background-color: #6020e0;
   padding: 20px;
   width: 100%;
-  /* redéfinition 400 + 2*20 */
   max-width: 80%;
   margin: auto;
 }
