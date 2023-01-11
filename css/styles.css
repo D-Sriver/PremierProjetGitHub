@@ -184,32 +184,28 @@ nav {
   color: white;
   display: flex;
   flex-direction: column;
-  .contact-line {
-    justify-content: center;
-  }
+}
+.contact-line {
+  justify-content: center;
+}
 
-  li {
-    list-style-type: disc;
-    line-height: 30px;
-  }
+li {
+  list-style-type: disc;
+  line-height: 30px;
+}
 
-  #contact,
-  #contact h2 {
-    color: #000000;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
+#contact,
+#contact h2 {
+  color: #000000;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
-  .contact-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
+.contact-block {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .contact-line img {
