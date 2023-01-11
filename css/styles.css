@@ -259,6 +259,7 @@ input[type="email"] {
   resize: vertical;
 }
 label {
+  color: white;
   margin-right: 0px;
   margin-left: 0px;
   width: 100%;
