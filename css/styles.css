@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: rgb(85, 207, 238);
+  color: #e9890d;
   cursor: pointer;
 }
 
@@ -125,19 +125,19 @@ nav {
 .name {
   font-size: 38px;
   font-weight: bold;
-  color: #ffffff;
+  color: white;
   margin-bottom: 50px;
 }
 
 .city {
   font-size: 30px;
   font-style: italic;
-  color: #ffffff;
+  color: white;
 }
 
 .about-text {
   text-align: justify;
-  color: #ffffff;
+  color: white;
 }
 
 .education-text,
@@ -181,32 +181,32 @@ nav {
 }
 
 .project-description {
-  color: #ffffff;
+  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
+  .contact-line {
+    justify-content: center;
+  }
 
-li {
-  list-style-type: disc;
-  line-height: 30px;
-}
+  li {
+    list-style-type: disc;
+    line-height: 30px;
+  }
 
-#contact,
-#contact h2 {
-  color: #000000;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
+  #contact,
+  #contact h2 {
+    color: #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
 
-.contact-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-.contact-line {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
